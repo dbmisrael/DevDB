@@ -3,6 +3,7 @@ CREATE TABLE [dbo].[Table_1] (
     [C2] NCHAR (10) NULL
 );
 -- comment
+-- comment2
 
 GO
 
