@@ -1,0 +1,108 @@
+{
+  "Column": [
+    {
+      "attcacheoff": -1,
+      "attcollation": null,
+      "attdefault": "nextval('Currencies_actor_id_seq'::regclass)",
+      "attfdwoptions": null,
+      "attidentity": "\u0000",
+      "attislocal": true,
+      "attlen": 4,
+      "attmissingval": null,
+      "attname": "actor_id",
+      "attndims": 0,
+      "attnotnull": true,
+      "attnum": 1,
+      "attoptions": null,
+      "attstorage": "p",
+      "atttypid": "integer",
+      "atttypmod": -1,
+      "kind": "r",
+      "name": "Currencies",
+      "schema": "public"
+    }
+  ],
+  "Comments": [],
+  "Constraints": [
+    {
+      "Column": [
+        {
+          "attname": "actor_id",
+          "conkey": [
+            1
+          ],
+          "conname": "currencies_un",
+          "conrelname": "Currencies"
+        }
+      ],
+      "conbin": null,
+      "condeferrable": false,
+      "condeferred": false,
+      "conexclop": null,
+      "confdeltype": " ",
+      "conffeqop": [],
+      "confkey": null,
+      "confmatchtype": " ",
+      "confrelid": "-",
+      "confupdtype": " ",
+      "conindid": "currencies_un",
+      "coninhcount": 0,
+      "conislocal": true,
+      "conkey": [
+        1
+      ],
+      "conname": "currencies_un",
+      "connoinherit": true,
+      "conpfeqop": [],
+      "conppeqop": [],
+      "conrelname": "Currencies",
+      "contype": "u",
+      "contypid": "-",
+      "convalidated": true,
+      "kind": "r",
+      "name": "Currencies",
+      "schema": "public"
+    }
+  ],
+  "Indexes": [
+    {
+      "Column": [
+        {
+          "attname": "actor_id",
+          "attnum": 1,
+          "indexname": "currencies_un"
+        }
+      ],
+      "indcheckxmin": false,
+      "indcollation": [
+        0
+      ],
+      "indexname": "currencies_un",
+      "indexprs": null,
+      "indimmediate": true,
+      "indisclustered": false,
+      "indisexclusion": false,
+      "indislive": true,
+      "indisprimary": false,
+      "indisready": true,
+      "indisreplident": false,
+      "indisunique": true,
+      "indisvalid": true,
+      "indkey": [
+        1
+      ],
+      "indnatts": 1,
+      "indnkeyatts": 1,
+      "indoption": [
+        0
+      ],
+      "indpred": null,
+      "kind": "r",
+      "name": "Currencies",
+      "schema": "public"
+    }
+  ],
+  "Inherites": [],
+  "Rewrite": [],
+  "Triggers": []
+}

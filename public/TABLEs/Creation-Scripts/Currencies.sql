@@ -1,0 +1,1 @@
+ALTER SEQUENCE "Currencies_actor_id_seq" OWNED BY "Currencies"."actor_id";
